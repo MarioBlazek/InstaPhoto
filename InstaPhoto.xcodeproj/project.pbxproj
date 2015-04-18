@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA4FFFB31AE2825700DEB9AA /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4FFFB21AE2825700DEB9AA /* ProfileViewController.m */; };
 		EA5AEE121AE24E8100D6254E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5AEE111AE24E8100D6254E /* main.m */; };
 		EA5AEE151AE24E8100D6254E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5AEE141AE24E8100D6254E /* AppDelegate.m */; };
 		EA5AEE181AE24E8100D6254E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5AEE171AE24E8100D6254E /* ViewController.m */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA4FFFB11AE2825700DEB9AA /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileViewController.h; path = ../ProfileViewController.h; sourceTree = "<group>"; };
+		EA4FFFB21AE2825700DEB9AA /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileViewController.m; path = ../ProfileViewController.m; sourceTree = "<group>"; };
 		EA5AEE0C1AE24E8100D6254E /* InstaPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA5AEE101AE24E8100D6254E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA5AEE111AE24E8100D6254E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -93,6 +96,8 @@
 				EA5AEE3B1AE25BF300D6254E /* FavoritesViewController.m */,
 				EA5AEE371AE25A6C00D6254E /* FeedViewController.h */,
 				EA5AEE381AE25A6C00D6254E /* FeedViewController.m */,
+				EA4FFFB11AE2825700DEB9AA /* ProfileViewController.h */,
+				EA4FFFB21AE2825700DEB9AA /* ProfileViewController.m */,
 				EA5AEE161AE24E8100D6254E /* ViewController.h */,
 				EA5AEE171AE24E8100D6254E /* ViewController.m */,
 				EA5AEE191AE24E8100D6254E /* Main.storyboard */,
@@ -233,6 +238,7 @@
 				EA5AEE181AE24E8100D6254E /* ViewController.m in Sources */,
 				EA5AEE151AE24E8100D6254E /* AppDelegate.m in Sources */,
 				EA5AEE391AE25A6C00D6254E /* FeedViewController.m in Sources */,
+				EA4FFFB31AE2825700DEB9AA /* ProfileViewController.m in Sources */,
 				EA5AEE121AE24E8100D6254E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +434,7 @@
 				EA5AEE311AE24E8100D6254E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA5AEE321AE24E8100D6254E /* Build configuration list for PBXNativeTarget "InstaPhotoTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +443,7 @@
 				EA5AEE341AE24E8100D6254E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>C2138B9E-CFA9-4BD4-BB60-46D3557FCC72</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>InstaPhoto</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>9DD0B25D66FDFA8EE1CE3F5497187125DB9F8DFB</key>
 		<string>https://github.com/MarioBlazek/InstaPhoto.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>InstaPhoto.xcodeproj/project.xcworkspace</string>
+	<string>InstaPhoto.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>9DD0B25D66FDFA8EE1CE3F5497187125DB9F8DFB</key>
