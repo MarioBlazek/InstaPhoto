@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "FeedViewController.h"
+#import "FavoritesViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,11 +22,11 @@
     CGRect viewRect = [[UIScreen mainScreen] bounds];
     self.window = [[UIWindow alloc] initWithFrame:viewRect];
     
-    UIViewController *feedViewController = [[UIViewController alloc] init];
+    FeedViewController *feedViewController = [[FeedViewController alloc] init];
     feedViewController.title = @"Feed";
     //feedViewController.tabBarItem.image = [UIImage imageNamed:@"tab_icon_feed"];
     
-    UIViewController *favoritesViewController = [[UIViewController alloc] init];
+    FavoritesViewController *favoritesViewController = [[FavoritesViewController alloc] init];
     favoritesViewController.title = @"Favorites";
     //favoritesViewController.tabBarItem.image = [UIImage imageNamed:@"some_image"];
     

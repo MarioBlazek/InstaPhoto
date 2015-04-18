@@ -14,6 +14,8 @@
 		EA5AEE1D1AE24E8100D6254E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA5AEE1C1AE24E8100D6254E /* Images.xcassets */; };
 		EA5AEE201AE24E8100D6254E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA5AEE1E1AE24E8100D6254E /* LaunchScreen.xib */; };
 		EA5AEE2C1AE24E8100D6254E /* InstaPhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5AEE2B1AE24E8100D6254E /* InstaPhotoTests.m */; };
+		EA5AEE391AE25A6C00D6254E /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5AEE381AE25A6C00D6254E /* FeedViewController.m */; };
+		EA5AEE3C1AE25BF300D6254E /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5AEE3B1AE25BF300D6254E /* FavoritesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		EA5AEE251AE24E8100D6254E /* InstaPhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaPhotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA5AEE2A1AE24E8100D6254E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA5AEE2B1AE24E8100D6254E /* InstaPhotoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaPhotoTests.m; sourceTree = "<group>"; };
+		EA5AEE371AE25A6C00D6254E /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		EA5AEE381AE25A6C00D6254E /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		EA5AEE3A1AE25BF300D6254E /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
+		EA5AEE3B1AE25BF300D6254E /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,10 @@
 			children = (
 				EA5AEE131AE24E8100D6254E /* AppDelegate.h */,
 				EA5AEE141AE24E8100D6254E /* AppDelegate.m */,
+				EA5AEE3A1AE25BF300D6254E /* FavoritesViewController.h */,
+				EA5AEE3B1AE25BF300D6254E /* FavoritesViewController.m */,
+				EA5AEE371AE25A6C00D6254E /* FeedViewController.h */,
+				EA5AEE381AE25A6C00D6254E /* FeedViewController.m */,
 				EA5AEE161AE24E8100D6254E /* ViewController.h */,
 				EA5AEE171AE24E8100D6254E /* ViewController.m */,
 				EA5AEE191AE24E8100D6254E /* Main.storyboard */,
@@ -219,8 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA5AEE3C1AE25BF300D6254E /* FavoritesViewController.m in Sources */,
 				EA5AEE181AE24E8100D6254E /* ViewController.m in Sources */,
 				EA5AEE151AE24E8100D6254E /* AppDelegate.m in Sources */,
+				EA5AEE391AE25A6C00D6254E /* FeedViewController.m in Sources */,
 				EA5AEE121AE24E8100D6254E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
