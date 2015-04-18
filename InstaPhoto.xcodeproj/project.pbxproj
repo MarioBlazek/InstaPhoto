@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EA4FFFB31AE2825700DEB9AA /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4FFFB21AE2825700DEB9AA /* ProfileViewController.m */; };
+		EA4FFFB51AE285DC00DEB9AA /* MB.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4FFFB41AE285DC00DEB9AA /* MB.png */; };
 		EA5AEE121AE24E8100D6254E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5AEE111AE24E8100D6254E /* main.m */; };
 		EA5AEE151AE24E8100D6254E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5AEE141AE24E8100D6254E /* AppDelegate.m */; };
 		EA5AEE181AE24E8100D6254E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5AEE171AE24E8100D6254E /* ViewController.m */; };
@@ -32,6 +33,7 @@
 /* Begin PBXFileReference section */
 		EA4FFFB11AE2825700DEB9AA /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileViewController.h; path = ../ProfileViewController.h; sourceTree = "<group>"; };
 		EA4FFFB21AE2825700DEB9AA /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileViewController.m; path = ../ProfileViewController.m; sourceTree = "<group>"; };
+		EA4FFFB41AE285DC00DEB9AA /* MB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MB.png; sourceTree = "<group>"; };
 		EA5AEE0C1AE24E8100D6254E /* InstaPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA5AEE101AE24E8100D6254E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA5AEE111AE24E8100D6254E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 		EA5AEE0E1AE24E8100D6254E /* InstaPhoto */ = {
 			isa = PBXGroup;
 			children = (
+				EA4FFFB41AE285DC00DEB9AA /* MB.png */,
 				EA5AEE131AE24E8100D6254E /* AppDelegate.h */,
 				EA5AEE141AE24E8100D6254E /* AppDelegate.m */,
 				EA5AEE3A1AE25BF300D6254E /* FavoritesViewController.h */,
@@ -214,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA4FFFB51AE285DC00DEB9AA /* MB.png in Resources */,
 				EA5AEE1B1AE24E8100D6254E /* Main.storyboard in Resources */,
 				EA5AEE201AE24E8100D6254E /* LaunchScreen.xib in Resources */,
 				EA5AEE1D1AE24E8100D6254E /* Images.xcassets in Resources */,
