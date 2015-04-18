@@ -31,7 +31,7 @@
     
     if (self) {
         self.title = @"Feed";
-        self.tabBarItem.image = [UIImage imageNamed:@"tab_icon_feed"];
+        //self.tabBarItem.image = [UIImage imageNamed:@"tab_icon_feed"];
     }
     
     return self;

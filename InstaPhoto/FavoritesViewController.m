@@ -31,7 +31,7 @@
     
     if (self) {
         self.title = @"Favorites";
-        self.tabBarItem.image = [UIImage imageNamed:@"tab_icon_favorites"];
+        //self.tabBarItem.image = [UIImage imageNamed:@"tab_icon_favorites"];
     }
     
     return self;

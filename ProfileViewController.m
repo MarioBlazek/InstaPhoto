@@ -20,7 +20,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     self.scrollView = [[UIScrollView alloc] initWithFrame:self.view.bounds];
     self.scrollView.autoresizingMask = UIViewAutoresizingFlexibleHeight;
-    self.scrollView.contentSize = CGSizeMake(320, 480);
+    self.scrollView.contentSize = CGSizeMake(320, 490);
     
     UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"MB"]];
     [imageView setContentMode:UIViewContentModeScaleAspectFit];
@@ -64,7 +64,7 @@
     
     if (self) {
         self.title = @"Profile";
-        self.tabBarItem.image = [UIImage imageNamed:@"tab_icon_profile"];
+        //self.tabBarItem.image = [UIImage imageNamed:@"tab_icon_profile"];
     }
     
     return self;
