@@ -23,15 +23,9 @@
     self.window = [[UIWindow alloc] initWithFrame:viewRect];
     
     FeedViewController *feedViewController = [[FeedViewController alloc] init];
-    feedViewController.title = @"Feed";
-    //feedViewController.tabBarItem.image = [UIImage imageNamed:@"tab_icon_feed"];
     
     FavoritesViewController *favoritesViewController = [[FavoritesViewController alloc] init];
-    favoritesViewController.title = @"Favorites";
-    //favoritesViewController.tabBarItem.image = [UIImage imageNamed:@"some_image"];
-    
-    feedViewController.view.backgroundColor = [UIColor blueColor];
-    favoritesViewController.view.backgroundColor = [UIColor redColor];
+
     
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     [tabBarController setViewControllers:@[feedViewController, favoritesViewController]];
